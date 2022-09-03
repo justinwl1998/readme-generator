@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (license === "None") {
     return ""
   }
-
+  // Why the large switch function to do this? who knows man
   let badge;
   switch(license) {
     case "Apache 2.0":
