@@ -16,7 +16,7 @@ A Node.js command line program that generates a quick README, so as they have mo
 
 ## Preview
 
-[todo]
+https://user-images.githubusercontent.com/107000710/188289622-0dd90b59-64d9-44f9-8bf7-9b877c42403f.mp4
 
 ## Author
 
