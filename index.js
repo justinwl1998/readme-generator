@@ -70,7 +70,7 @@ function init() {
         console.log(readmeText);
 
         //then pass to writeToFile
-        writeToFile('README.md', readmeText);
+        writeToFile('generatedREADME.md', readmeText); // Using a different file name or else I end up overwriting the readme to this project
     })
 }
 
