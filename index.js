@@ -64,10 +64,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then((data) => {
-        console.log(data)
         // pass to generateMarkdown eventually
         const readmeText = md.generateMarkdown(data);
-        console.log(readmeText);
 
         //then pass to writeToFile
         writeToFile('generatedREADME.md', readmeText); // Using a different file name or else I end up overwriting the readme to this project
